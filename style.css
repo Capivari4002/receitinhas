@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
-
 
 :root {
  --verde: #8abe7b;
@@ -14,8 +12,8 @@
   --roxo-claro: #0f0255;
   --bege: #fdfdf1;
   
-     --fonte-primaria: 'Twinkle Star',cursive;
-    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-primaria: 'Twinkle Star', curcive;
+    
 }
 
 body {
