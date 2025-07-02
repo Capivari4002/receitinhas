@@ -30,7 +30,14 @@ body {
 header {
  background: var(--verde);
 }
+.navegador .logo .texto{
+  color: var(--bege);
+}
 
+.navegador .menu .link{
+  color: var(--bege);
+
+}
 
 
 .receitinhas-do-dia-a-dia h1 {
