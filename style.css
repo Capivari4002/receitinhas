@@ -31,10 +31,11 @@ header {
   background-color: var(--verde);
   padding: 1rem;
   justify-content: center;
-  font-family: var(--fonte-primaria)
+
 }
 
 .receitinhas-do-dia-a-dia h1 {
   font-size: 4rem;
   color: var(--verde-escuro);
+   font-family: var(--fonte-primaria)
 }
