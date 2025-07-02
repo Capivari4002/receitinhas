@@ -65,6 +65,7 @@ header .navegador{
   border-radius: var(30px);
   font-size: 1.12rem;
 transition: 0.3s ease;
+color: var(--verde-escuro);
 }
 
 .navegador .menu .link:hover{
