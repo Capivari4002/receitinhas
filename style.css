@@ -8,11 +8,14 @@
 }
 
 :root {
+  /*cores*/
  --verde: #8abe7b;
   --verde-escuro: #001e00;
   --roxo-claro: #0f0255;
   --bege: #fdfdf1;
    
+
+
 }
 
 body {
@@ -25,11 +28,7 @@ body {
 }
 
 header {
-  display: flex;
-  width: 100%;
-  background-color: var(--verde);
-  padding: 1rem;
-  justify-content: center;
+ background: var(--verde);
 }
 
 
