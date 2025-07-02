@@ -11,7 +11,6 @@
   /*cores*/
  --verde: #8abe7b;
   --verde-escuro: #001e00;
-  --roxo-claro: #0f0255;
   --bege: #fdfdf1;
    
 
@@ -69,7 +68,7 @@ transition: 0.3s ease;
 }
 
 .navegador .menu .link:hover{
-    background: var(--verde-escuro);
-  color: var(--bege);
+    background: var(--bege);
+  color: var(--verde-escuro);
 
 }
