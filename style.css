@@ -13,8 +13,7 @@
   --verde: #8abe7b;
   --amarelo-claro: #fff2af;
   --roxo-claro: #0f0255;
-
-  --azul-claro: #e4efe7;
+  --bege: #fdfdf1;
   --branco: #ffffff;
   --marron-claro: #bebebe;
 }
@@ -22,7 +21,7 @@
 body {
   height: 100vh;
   box-sizing: border-box;
-  background-color: var(--azul-claro);
+  background-color: var(--bege);
   color: var(--preto);
   font-size: 16px;
   
