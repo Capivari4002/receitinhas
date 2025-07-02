@@ -12,9 +12,7 @@
   --verde-escuro: #001e00;
   --roxo-claro: #0f0255;
   --bege: #fdfdf1;
-  
-    --fonte-primaria:  "Vibur", cursive;
-    
+   
 }
 
 body {
@@ -39,5 +37,5 @@ header {
 .receitinhas-do-dia-a-dia h1 {
   font-size: 4rem;
   color: var(--verde-escuro);
-   font-family: var(--fonte-primaria)
+
 }
