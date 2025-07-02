@@ -62,7 +62,7 @@ header .navegador{
 
 .navegador .menu .link{
   padding: 10px 18px;
-  border-radius: var(30px);
+  border-radius: 30px
   font-size: 1.12rem;
 transition: 0.3s ease;
 color: var(--verde-escuro);
