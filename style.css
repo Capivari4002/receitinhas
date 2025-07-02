@@ -30,7 +30,7 @@ body {
 header {
   display: flex;
   width: 100%;
-  background-color: var(--branco);
+  background-color: var(--verde);
   padding: 1rem;
   justify-content: center;
   font-family: var(--fonte-primaria)
