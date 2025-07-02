@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+
+
 :root {
   --preto: #000000;
   --marinho: #0b034d;
