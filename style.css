@@ -55,7 +55,7 @@ header .navegador{
 display: flex;
 align-items: center;
 text-decoration: none;
-gap: 6px;
+gap: 0px;
 }
 
 .imgpanela{
