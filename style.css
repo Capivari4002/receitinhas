@@ -51,19 +51,6 @@ header .navegador{
   justify-content: space-between;
 }
 
-.icon {
-display: flex;
-align-items: center;
-text-decoration: none;
-gap: 0px;
-}
-
-.imgpanela{
-  height: 50px;
-  margin: 0;
-  padding: 0;
-}
-
 .navegador .logo .texto{
   color: var(--verde-escuro);
 }
@@ -84,5 +71,19 @@ color: var(--verde-escuro);
 .navegador .menu .link:hover{
     background: var(--bege);
   color: var(--verde-escuro);
+
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.imgpanela{
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  display: block;
 
 }
