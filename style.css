@@ -10,7 +10,7 @@
 
 :root {
   --preto: #000000;
-  --marinho: #0b034d;
+  --verde: #8abe7b;
   --amarelo-claro: #fff2af;
   --roxo-claro: #0f0255;
   --verde: #aab2f3;
@@ -31,7 +31,7 @@ body {
 header {
   display: flex;
   width: 100%;
-  background-color: var(--marinho);
+  background-color: var(--verde);
   padding: 1rem;
   justify-content: center;
   font-family: "Twinkle Star", cursive;
