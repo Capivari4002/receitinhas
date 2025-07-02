@@ -51,6 +51,17 @@ header .navegador{
   justify-content: space-between;
 }
 
+.icon {
+display: flex;
+align-items: center;
+text-decoration: none;
+}
+
+.imgpanela{
+  height: 40px;
+  margin-right: 10px;
+}
+
 .navegador .logo .texto{
   color: var(--verde-escuro);
 }
