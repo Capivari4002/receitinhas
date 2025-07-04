@@ -75,13 +75,5 @@ color: var(--verde-escuro);
 }
 
 .icon{
-  display: flex;
-  align-items: center;
-}
-
-.imgpanela{
-  height: 60px;
-  margin-right: 5px;
- transform: translateY(5px);
-
+  float: left;
 }
