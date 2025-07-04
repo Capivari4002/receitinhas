@@ -60,7 +60,9 @@ display: flex;
 gap: 10px;
 }
 
-.navegador .menu:hover{
+.menu li a:hover{
   background-color: var(--bege);
 color: var(--verde);
+border-radius: 20px;
+padding: 5px 10 px;
 }
