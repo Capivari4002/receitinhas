@@ -63,6 +63,6 @@ gap: 10px;
 .menu li a:hover{
   background-color: var(--bege);
 color: var(--verde);
-border-radius: 25px;
-padding: 10px 15 px;
+border-radius: 30px;
+padding: 20px 30 px;
 }
