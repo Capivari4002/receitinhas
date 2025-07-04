@@ -56,4 +56,11 @@ padding: 20px 0;
   font-size: 1.12rem;
 transition: 0.3s ease;
 color: var(--verde-escuro);
+display: flex;
+gap: 10px;
+}
+
+.navegador .menu:hover{
+  background-color: var(--bege);
+color: var(--verde);
 }
