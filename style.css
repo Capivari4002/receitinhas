@@ -82,5 +82,5 @@ color: var(--verde-escuro);
 .d_img{
   position: absolute;
   width: 70%;
-  
+  left: 15%;
 }
