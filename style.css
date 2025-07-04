@@ -49,6 +49,16 @@ header .navegador{
   padding: 20px;
   align-items: center;
   justify-content: space-between;
+
+ .d_img {
+   position: absolute;
+  width: 70%;
+ }
+
+ .icon{
+  float: left;
+  width: 20%;
+ }
 }
 
 .navegador .logo .texto{
@@ -74,13 +84,3 @@ color: var(--verde-escuro);
 
 }
 
-.icon{
-  float: left;
-  width: 20%;
-}
-
-.d_img{
-  position: absolute;
-  width: 70%;
-  left: 15%;
-}
