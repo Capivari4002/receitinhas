@@ -77,14 +77,11 @@ color: var(--verde-escuro);
 .icon{
   display: flex;
   align-items: center;
-  gap: 5px;
 }
 
 .imgpanela{
-  height: 65px;
-  margin: 0;
-  padding: 0;
-  display: block;
-  position: relative;
+  height: 60px;
+  margin-right: 5px;
+ transform: translateY(5px);
 
 }
