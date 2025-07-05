@@ -37,6 +37,10 @@ padding: 20px 0;
   color: var(--verde-escuro);
 }
 
+.texto h1{
+  font-size: 2rem;
+}
+
 .menu li{
   display: inline-block;
   margin: 0 10px;
