@@ -9,7 +9,7 @@ font-family: "Sriracha", cursive;
 
 :root {
   /*cores*/
---verde: #316828;
+--verde: #5e9c4f;
 --verde-escuro: #001e00;
 --branco: #ffffff;
 --bege:  #fdfdf1;
@@ -35,7 +35,7 @@ padding: 20px 0;
 
 .texto{
   margin-left: 20px;
-  color: var(--marrom-claro);
+  color: var(--verde-escuro);
 }
 
 .texto h1{
