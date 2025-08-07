@@ -9,10 +9,11 @@ font-family: "Sriracha", cursive;
 
 :root {
   /*cores*/
---verde: #8abe7b;
+--verde: #6c7036;
 --verde-escuro: #001e00;
 --branco: #ffffff;
 --bege:  #fdfdf1;
+--marrom-claro:  #ced09a;
 }
 
 header{
