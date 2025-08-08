@@ -80,7 +80,7 @@ transition: backgrond-color 0.3s ease, padding 0.3 ease;
 }
 
 body{
-  background-color: var(--marrom-claro);
+  background-color: var(--bege);
 }
 
 main {
