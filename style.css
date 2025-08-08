@@ -14,6 +14,7 @@ font-family: "Sriracha", cursive;
 --branco: #ffffff;
 --bege:  #f5f8b7;
 --marrom-claro:  #ced09a;
+--verde-diferente: #acaf70;
 }
 
 header{
@@ -87,7 +88,7 @@ main {
   width: 80%;              
   margin: 40px auto;       
   padding: 20px;           
-  background-color: var(--bege); 
+  background-color: var(--verde-diferente); 
   border: 1px solid var(--verde-escuro); 
   border-radius: 8px;      
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
