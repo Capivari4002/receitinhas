@@ -37,47 +37,50 @@
     </nav>
   </header>
   
-  <section id="carbonara" class="card-receita">
-  <div class="cabecalho-card">
+  <section id="carbonara" class="card">
+  <div class="topo-card">
     <h2>Macarrão Carbonara</h2>
-    <img src="pasta-3805772_1280.jpg" alt="Macarrão Carbonara" class="imagem-card" onclick="toggleReceita()">
+    <img src="pasta-3805772_1280.jpg" alt="Imagem do macarrão" class="imagem" onclick="mostrarReceita()">
   </div>
 
-  <div id="conteudo-receita" class="conteudo-receita">
-    <p>Macarrão Carbonara Clássico: uma receita cremosa e deliciosa, típica da culinária italiana.</p>
+  <div id="receita" class="receita">
+    <p><strong>Descrição:</strong> Receita cremosa e deliciosa, feita com poucos ingredientes.</p>
+
     <h3>Ingredientes:</h3>
     <ul>
-      <li>200g de espaguete</li>
-      <li>100g de pancetta ou bacon</li>
+      <li>200g de macarrão</li>
+      <li>100g de bacon</li>
       <li>2 ovos + 1 gema</li>
-      <li>50g de queijo pecorino ou parmesão</li>
-      <li>Pimenta-do-reino</li>
-      <li>Sal</li>
+      <li>50g de queijo ralado</li>
+      <li>Pimenta e sal a gosto</li>
     </ul>
 
     <h3>Modo de Preparo:</h3>
     <ul>
-      <li>Cozinhe o macarrão al dente.</li>
-      <li>Doure a pancetta.</li>
-      <li>Prepare o creme de ovos com queijo e pimenta.</li>
-      <li>Junte tudo com o fogo desligado e finalize.</li>
+      <li>Cozinhe o macarrão.</li>
+      <li>Frite o bacon até ficar crocante.</li>
+      <li>Misture os ovos com o queijo.</li>
+      <li>Junte tudo fora do fogo e mexa bem.</li>
     </ul>
 
     <h3>Dicas:</h3>
     <ul>
       <li>Não use creme de leite.</li>
-      <li>Use a água do cozimento para dar cremosidade.</li>
+      <li>Use a água do cozimento para deixar cremoso.</li>
     </ul>
   </div>
 </section>
 
 <script>
-  function toggleReceita() {
-    const conteudo = document.getElementById("conteudo-receita");
-    conteudo.style.display = (conteudo.style.display === "block") ? "none" : "block";
+  function mostrarReceita() {
+    const receita = document.getElementById('receita');
+    if (receita.style.display === 'block') {
+      receita.style.display = 'none';
+    } else {
+      receita.style.display = 'block';
+    }
   }
 </script>
-
 </body>
 
 </html>
