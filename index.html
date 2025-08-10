@@ -38,14 +38,18 @@
   </header>
   
   <section id="carbonara" class="card">
-  <div class="topo-card">
-    <h2>Macarrão Carbonara</h2>
-    <img src="pasta-3805772_1280.jpg" alt="Imagem do macarrão" class="imagem" onclick="mostrarReceita()">
+  <div class="conteudo-card">
+    <div class="texto">
+      <h2>Macarrão Carbonara</h2>
+      <p>Uma receita cremosa e deliciosa da culinária italiana. Clique na imagem ao lado para ver os ingredientes e o modo de preparo.</p>
+    </div>
+
+    <div class="imagem-container">
+      <img src="carbonara.jpg" alt="Imagem do macarrão" class="imagem" onclick="mostrarReceita()">
+    </div>
   </div>
 
   <div id="receita" class="receita">
-    <p><strong>Descrição:</strong> Receita cremosa e deliciosa, feita com poucos ingredientes.</p>
-
     <h3>Ingredientes:</h3>
     <ul>
       <li>200g de macarrão</li>
@@ -62,25 +66,16 @@
       <li>Misture os ovos com o queijo.</li>
       <li>Junte tudo fora do fogo e mexa bem.</li>
     </ul>
-
-    <h3>Dicas:</h3>
-    <ul>
-      <li>Não use creme de leite.</li>
-      <li>Use a água do cozimento para deixar cremoso.</li>
-    </ul>
   </div>
 </section>
 
 <script>
   function mostrarReceita() {
     const receita = document.getElementById('receita');
-    if (receita.style.display === 'block') {
-      receita.style.display = 'none';
-    } else {
-      receita.style.display = 'block';
-    }
+    receita.style.display = receita.style.display === 'block' ? 'none' : 'block';
   }
 </script>
+
 </body>
 
 </html>
