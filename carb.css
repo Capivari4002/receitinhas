@@ -1,0 +1,32 @@
+main {
+  width: 80%;              
+  margin: 40px auto;       
+  padding: 20px;           
+  background-color: var(--verde-diferente); 
+  border: 1px solid var(--verde-escuro); 
+  border-radius: 8px;      
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+main h2, main h3, main p {
+  color: var(--verde-escuro);  
+  margin-bottom: 10px;       
+}
+
+main ul {
+  margin-left: 20px;
+}
+
+main ul li {
+  margin-bottom: 8px;  
+}
+
+main a {
+  text-decoration: none;
+  color: var(--verde-escuro);
+}
+
+main a:hover {
+  color: var(--verde);
+  text-decoration: underline;
+}
