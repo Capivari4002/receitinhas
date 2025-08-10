@@ -84,35 +84,46 @@ body{
   background-color: var(--bege);
 }
 
-main {
-  width: 80%;              
-  margin: 40px auto;       
-  padding: 20px;           
-  background-color: var(--verde-diferente); 
-  border: 1px solid var(--verde-escuro); 
-  border-radius: 8px;      
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+.card-receita {
+  background-color: var(--marrom-claro);
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
-main h2, main h3, main p {
-  color: var(--verde-escuro);  
-  margin-bottom: 10px;       
+.cabecalho-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-main ul {
-  margin-left: 20px;
+.imagem-card {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
-main ul li {
-  margin-bottom: 8px;  
+.imagem-card:hover {
+  transform: scale(1.05);
 }
 
-main a {
-  text-decoration: none;
-  color: var(--verde-escuro);
+.conteudo-receita {
+  margin-top: 20px;
+  display: none;
+  animation: aparecer 0.3s ease-in-out forwards;
 }
 
-main a:hover {
-  color: var(--verde);
-  text-decoration: underline;
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  } 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
