@@ -366,3 +366,17 @@ body{
   margin-top: 15px;
   color: var(--verde-escuro);
 }
+
+.rodape {
+  background-color: var(--verde-escuro);
+  color: var(--bege);
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+
+.rodape p {
+  margin: 0;
+}
