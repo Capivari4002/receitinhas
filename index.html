@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>receitinhas</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,12 +17,11 @@
           <h1>Receitinhas do dia a dia</h1>
         </div>
       </div>
-
       <div class="menu">
         <ul>
           <li><a href="#objetivo">objetivo</a></li>
           <li><a href="#carbonara">carbonara</a></li>
-          <li><a href="#cermoso">cremoso</a></li>
+          <li><a href="#cremoso">cremoso</a></li>
           <li><a href="#bolonhesa">bolonhesa</a></li>
           <li><a href="#pesto">pesto</a></li>
         </ul>
@@ -38,96 +35,27 @@
         <h2>Macarrão Carbonara</h2>
         <p>Uma receita cremosa e deliciosa da culinária italiana. Clique na imagem ao lado para ver os ingredientes e o modo de preparo.</p>
       </div>
-
       <div class="imagem-container">
         <img src="pasta-3805772_1280.jpg" alt="Imagem do macarrão" class="imagem" onclick="mostrarReceita('receita-carbonara')">
       </div>
     </div>
-
     <div id="receita-carbonara" class="receita">
-      <h3>Ingrediente:</h3>
-      <ul>
-        <li>200g de espaguete (ou outro macarrão longo)</li>
-        <li>100g de pancetta ou bacon em cubos</li>
-        <li>2 ovos inteiros + 1 gema</li>
-        <li>50g de queijo pecorino romano (ou parmesão)</li>
-        <li>Pimenta-do-reino moída a gosto</li>
-        <li>Sal para cozinhar o macarrão</li>
-      </ul>
-
-      <h3>Modo de Preparo:</h3>
-      <ul>
-        <li>1 - Cozinhe o macarrão al dente e reserve 1 xícara da água do cozimento.</li>
-        <li>2 - Frite a pancetta até ficar crocante.</li>
-        <li>3 - Bata os ovos, gema, queijo e pimenta em uma tigela.</li>
-        <li>4 - Junte o macarrão à pancetta, desligue o fogo e espere 1 minuto.</li>
-        <li>5 - Misture o creme de ovos ao macarrão, mexendo bem.</li>
-        <li>6 - Ajuste sal e pimenta, e sirva com queijo por cima.</li>
-      </ul>
-
-      <h2>Dica!</h2>
-      <ul>
-        <li>Não use creme de leite!</li>
-        <li>Adicione o creme com o fogo desligado.</li>
-        <li>Use a água do cozimento para deixar mais cremoso.</li>
-      </ul>
     </div>
   </section>
 
-<section id="cremoso" class="card2">
+  <section id="cremoso" class="card2">
     <div class="conteudo-card2">
       <div class="texto2">
         <h2>Macarrão Cremoso com Queijo e Alho</h2>
         <p>Uma versão irresistível de macarrão cremoso, fácil de preparar e cheio de sabor. Clique na imagem ao lado para ver os ingredientes e o modo de preparo.</p>
       </div>
-
       <div class="imagem-container2">
-        <img src="mac.jpg" alt="Imagem do macarrão" class="imagem2" onclick="mostrarReceita2('receita-cremoso')">
+        <img src="mac.jpg" alt="Imagem do macarrão" class="imagem2" onclick="mostrarReceita('receita-cremoso')">
       </div>
     </div>
-
     <div id="receita-cremoso" class="receita2">
-      <h3>Ingrediente:</h3>
-      <ul>
-        <li>200g de macarrão (penne, espaguete ou parafuso)  </li>
-        <li>2 dentes de alho picados </li>
-        <li>1 colher (sopa) de manteiga</li>
-        <li>1 xícara (200ml) de creme de leite fresco</li>
-        <li>1/2 xícara de queijo parmesão ralado (ou outro queijo derretível)</li>
-        <li>Sal e pimenta-do-reino a gosto</li>
-        <li>1/2 colher (chá) de noz-moscada (opcional) </li>
-        <li>Salsinha fresca picada para decorar</li>
-      </ul>
-
-      <h3>Modo de Preparo:</h3>
-      <ul>
-        <li>1- Cozinhe o macarrão: Em uma panela com água fervente e sal, cozinhe o macarrão al dente. Reserve 1/2 xícara da água do cozimento antes de escorrer.</li>
-        <li>2- Refogue o alho: Em uma frigideira grande, derreta a manteiga em fogo médio e doure o alho picado (cuidado para não queimar).  </li>
-        <li>3- Prepare o molho cremoso: Adicione o creme de leite e misture bem. Acrescente o queijo ralado, mexendo até derreter e formar um molho homogêneo. Tempere com sal, pimenta e noz-moscada (se usar). </li>
-        <li>4- Incorpore o macarrão: Adicione o macarrão escorrido ao molho e misture bem.  Se necessário, adicione um pouco da água reservada para ajustar a cremosidade.  </li>
-        <li>5-Finalize: Deixe cozinhar por mais 1-2 minutos em fogo baixo, até o molho envolver bem o macarrão. Polvilhe salsinha fresca e sirva imediatamente. </li>
-      </ul>
-
-
-      <h2>Dica!</h2>
-      <ul>
-       <li>Não ferva demais o creme de leite para evitar que talhe ou fique granuloso. </li>
-       <li>Use queijos de boa qualidade (parmesão, gruyère ou mussarela) para um sabor mais encorpado</li>
-       <li>Para um toque extra, adicione cubos de bacon crocante ou frango desfiado.</li>
-      </ul>
     </div>
   </section>
-
-<script>
-    function mostrarReceita(id) {
-      const receita = document.getElementById(id);
-      if (receita.style.display === 'block') {
-        receita.style.display = 'none';
-      } else {
-        receita.style.display = 'block';
-      }
-    }
-  </script>
 
   <section id="bolonhesa" class="card3">
     <div class="conteudo-card3">
@@ -135,44 +63,25 @@
         <h2>Macarrão Bolonhesa</h2>
         <p>Um clássico italiano rico e saboroso. Clique na imagem ao lado para ver os ingredientes e o modo de preparo.</p>
       </div>
-
       <div class="imagem-container3">
-        <img src="spaghetti-1987454_1280.jpg" alt="Imagem do macarrão" class="imagem3" onclick="mostrarReceita3('receita-bolonhesa')">
+        <img src="spaghetti-1987454_1280.jpg" alt="Imagem do macarrão" class="imagem3" onclick="mostrarReceita('receita-bolonhesa')">
       </div>
     </div>
-
     <div id="receita-bolonhesa" class="receita3">
-      <h3>Ingrediente:</h3>
-      <ul>
-        <li>400g de macarrão (espaguete, penne...)</li>
-        <li>300g de carne moída</li>
-        <li>1 cebola picada</li>
-        <li>2 dentes de alho</li>
-        <li>1 cenoura ralada</li>
-        <li>1 talo de aipo (opcional)</li>
-        <li>2 colheres de azeite</li>
-        <li>1 lata de tomate pelado</li>
-        <li>1/2 xícara de vinho tinto (opcional)</li>
-        <li>1 xícara de caldo de carne</li>
-        <li>1 folha de louro</li>
-        <li>Sal e pimenta a gosto</li>
-        <li>Queijo parmesão para servir</li>
-      </ul>
+    </div>
+  </section>
 
-      <h3>Modo de Preparo:</h3>
-      <ul>
-        <li>1 - Refogue cebola, alho, cenoura e aipo.</li>
-        <li>2 - Adicione a carne moída e deixe dourar.</li>
-        <li>3 - Coloque o tomate, vinho e caldo. Cozinhe bem.</li>
-        <li>4 - Cozinhe o macarrão e misture com o molho.</li>
-        <li>5 - Sirva com parmesão por cima.</li>
-      </ul>
-
-      <h2>Dica!</h2>
-      <ul>
-        <li>Cozinhar por mais tempo deixa o molho mais saboroso.</li>
-        <li>Adicionar leite no final dá um toque especial.</li>
-      </ul>
+  <section id="pesto" class="card4">
+    <div class="conteudo-card4">
+      <div class="texto4">
+        <h2>Macarrão ao Pesto</h2>
+        <p>Uma receita vibrante e aromática, com o frescor do manjericão e a riqueza do queijo. Clique na imagem ao lado para ver os ingredientes e o modo de preparo.</p>
+      </div>
+      <div class="imagem-container4">
+        <img src="pasta-3777541_1280 (1).jpg" alt="Imagem do macarrão" class="imagem4" onclick="mostrarReceita('receita-pesto')">
+      </div>
+    </div>
+    <div id="receita-pesto" class="receita4">
     </div>
   </section>
 
@@ -186,72 +95,6 @@
       }
     }
   </script>
-
-  <section id="pesto" class="card4">
-    <div class="conteudo-card4">
-      <div class="texto4">
-        <h2>Macarrão ao Pesto</h2>
-        <p>Uma receita vibrante e aromática, com o frescor do manjericão e a riqueza do queijo. Clique na imagem ao lado para ver os ingredientes e o modo de preparo.</p>
-      </div>
-
-      <div class="imagem-container4">
-        <img src="pasta-3777541_1280 (1).jpg" alt="Imagem do macarrão" class="imagem4" onclick="mostrarReceita('receita-pesto')">
-      </div>
-    </div>
-
-    <div id="receita-pesto" class="receita4">
-      <h3>Ingrediente:</h3>
-      <h4>Para o Pesto Tradicional:</h4>
-      <ul>
-        <li> 2 xícaras (cheias) de folhas de manjericão fresco (só as folhas, sem os talos)  </li>
-        <li>1/4 de xícara de pinoli (ou nozes/amêndoas como alternativa) </li>
-        <li> 2 dentes de alho médios  </li>
-        <li> 1/2 xícara de queijo parmesão ralado (fresco, se possível) </li>
-        <li> 1/4 de xícara de queijo pecorino romano (ou só parmesão, se preferir) </li>
-        <li> 1/2 xícara de azeite de oliva extravirgem (de boa qualidade) </li>
-        <li>1 colher (sopa) de suco de limão (opcional, para realçar o frescor)  </li>
-        <li>Sal e pimenta-do-reino a gosto</li>
-      </ul>
-      <h4>Para o Macarrão:</h4>
-      <ul>
-        <li> 200g de macarrão (espaguete, penne ou trofie – tradicional para pesto)</li>
-        <li> 1/4 de xícara da água do cozimento do macarrão  </li>
-        <li> 2 colheres (sopa) de manteiga gelada (para dar cremosidade extra – opcional)  </li>
-      </ul>
-
-      <h3>Modo de Preparo:</h3>
-      <ul>
-        <li>1- Prepare o Pesto: Em um processador de alimentos ou pilão: Adicione o alho e os pinoli, triturando brevemente.  Acrescente as folhas de manjericão (lavadas e bem secas) e pulse até picar. Adicione os queijos ralados e misture. Com o processador ligado, vá adicionando o azeite em fio até emulsificar. Ajuste o sal e a pimenta. Se usar limão, adicione no final. </li>
-        <li>2- Cozinhe o Macarrão: Em uma panela com água fervente e sal generoso, cozinhe o macarrão al dente Reserve 1/4 de xícara da água do cozimento antes de escorrer.  
-</li>
-        <li>3-  Monte o prato: Em uma frigideira grande, adicione o macarrão escorrido e o pesto (use cerca de 3/4 da receita de pesto para 200g de macarrão). Junte a água reservada e misture em fogo muito baixo (não pode ferver, senão o pesto escurece).Se desejar um toque extra cremoso, adicione a manteiga gelada e mexa até derreter.  </li>
-        <li>4- Finalize: Sirva imediatamente, com queijo ralado por cima e folhas de manjericão fresco para decorar.  </li>
-      </ul>
-
-      <h2>Dica!</h2>
-      <ul>
-       <li>Manjericão fresco é essencial</li>
-       <li>Não aqueça demais o pesto, para manter a cor vibrante e o sabor fresco.</li>
-       <li>Guarde o pesto extra em um pote com uma camada de azeite por cima (dura até 1 semana na geladeira ou 1 mês no freezer). </li>
-       <li>Para um toque especial, grelhe rapidamente tomates-cereja para acompanhar.  </li>
-      </ul>
-    </div>
-  </section>
-
-<script>
-    function mostrarReceita(id) {
-      const receita = document.getElementById(id);
-      if (receita.style.display === 'block') {
-        receita.style.display = 'none';
-      } else {
-        receita.style.display = 'block';
-      }
-    }
-  </script>
-
-  </script>
-</body>
-</html>
 
 </body>
 </html>
