@@ -84,6 +84,31 @@ body{
   background-color: var(--bege);
 }
 
+.objetivo {
+  background-color: var(--bege);
+  padding: 40px 20px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.objetivo h2 {
+  font-size: 2rem;
+  color: var(--verde-escuro);
+  margin-bottom: 20px;
+}
+
+
+.objetivo p {
+  font-size: 1.1rem;
+  color: var(--verde-escuro);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
 .card {
   background-color: var(--marrom-claro);
   padding: 20px;
