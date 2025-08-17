@@ -141,6 +141,63 @@ body{
   color: var(--verde-escuro);
 }
 
+.card2 {
+  background-color: var(--marrom-claro);
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.conteudo-card2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+}
+
+.texto2 {
+  flex: 1;
+  min-width: 250px;
+  color: var(--verde-escuro);
+}
+
+.texto2 h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.imagem-container2 {
+  flex: 1;
+  text-align: right;
+}
+
+.imagem2 {
+  max-width: 100%;
+  width: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.imagem2:hover {
+  transform: scale(1.05);
+}
+
+.receita2 {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: var(--bege);
+  border-radius: 8px;
+  display: none;
+}
+
+.receita3 h4 {
+  margin-top: 15px;
+  color: var(--verde-escuro);
+}
+
 .card3 {
   background-color: var(--marrom-claro);
   padding: 20px;
